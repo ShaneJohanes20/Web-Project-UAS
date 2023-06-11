@@ -1,0 +1,96 @@
+.navbar {
+    background-color: brown;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: azure;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.banner {
+    padding-top: 190px;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    text-align: center;
+    color: black;
+}
+
+.banner h2 {
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.banner button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+}
+.navtop {
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    font-weight: bold;
+}
+
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #c1e783;
+}
+
+.banner a button {
+    font-weight: bold;}
+
+.banner a button:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.banner h2 {
+    font-weight: bold;
+}
+
+.container a {
+    font-weight: 500;
+}
